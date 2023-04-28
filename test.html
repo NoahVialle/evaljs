@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eval</title>
+  </head>
+  <body>
+    <h1>Recherche de ville par code postal</h1>
+    <label for="inputCodePostal">Code postal :</label>
+    <input
+      type="text"
+      id="inputCodePostal"
+      name="inputCodePostal"
+      maxlength="5"
+    />
+    <label for="inputVille">Ville :</label>
+    <input
+      type="text"
+      id="inputVille"
+      autocomplete="on"
+      name="inputVille"
+      readonly
+    />
+    <button onclick="searchCityByPostalCode()">Rechercher</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
